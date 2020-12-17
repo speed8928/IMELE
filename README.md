@@ -15,3 +15,8 @@ Please cite this  journal paper (that is available Open Access [PDF](https://www
 Download the trained weight from below link
 
 https://drive.google.com/file/d/1KZ50MQY5Fof8SAoJN34bxnk7mfou4frF/view?usp=sharing
+
+
+please find the link below to download the OSI dataset.
+
+https://drive.google.com/drive/folders/14sBkjeYY7R1S9NzWI5fGLX8XTuc8puHy?usp=sharing
