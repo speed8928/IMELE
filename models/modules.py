@@ -14,7 +14,7 @@ import os, sys
 import torchvision.models as models
 import torch.autograd.variable as Variable
 import scipy.io as sio
-from harmonic import Harm2d
+
 
 class _UpProjection(nn.Sequential):
 
@@ -115,8 +115,7 @@ class E_senet(nn.Module):
 
         #self.conv = nn.Conv2d(3, 64 , kernel_size=5, stride=1, bias=False)
         #self.bn = nn.BatchNorm2d(64)
-        layer_fn = Harm2d
-        self.Harm = layer_fn(3, 64, 3, padding=1)
+      
         self.pool = nn.MaxPool2d(3, stride=2,ceil_mode=True)
         self.down = _UpProjection(64,128)
 
