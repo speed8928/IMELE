@@ -1,0 +1,7 @@
+jupyter==1.0.0
+opencv-python==4.5.2.54
+opencv-contrib-python==4.5.2.54
+pandas==1.2.4
+scipy==1.6.3
+scikit-image==0.18.1
+tensorboard_logger==0.1.0

@@ -1,4 +1,4 @@
-from harmonic import Harm2d
+#from harmonic import Harm2d
 
 """
 ResNet code gently borrowed from
