@@ -28,7 +28,8 @@ class model(nn.Module):
     def forward(self, x):
         x_block0, x_block1, x_block2, x_block3, x_block4 = self.E(x)
   
-        x= x_block0.view(-1,250,250)
+        #x= x_block0.view(-1,250,250)
+        x = x_block0.view(-1, 440, 440)
 
         x = x.cpu().detach().numpy()
         
